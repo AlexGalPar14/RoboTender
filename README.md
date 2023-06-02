@@ -8,12 +8,13 @@ Dispensador de bebidas automatico a través del reconocimiento facial de los usu
 # Tabla de Contenidos
    * [Descripción del proyecto](#descripción-del-proyecto)
    * [Demo](#demo)
-   * [Requerimientos](#requirements)
+   * [Requerimientos Ejecución](#requerimientos-ejecución)
    * [Funcionalidad Principal](#funcionalidad-principal)
    * [Guía de uso](#guía-de-uso)
       * [Caso 1: El usuario usa el robot por primera vez](#guía-de-uso)
       * [Caso 2: El usuario ha usado el robot previamente](#guía-de-uso)
-   * [Componentes](#componentes)
+   * [Componentes Electrónicos](#componentes-elctrónicos)
+   * [Componentes Caja 3D](#componentes-caja-3D)
    * [Hardware Scheme](#hardware-scheme)
    * [Arquitectura de Software](#software-architecture)
    * [Software Modules](#software-modules)
@@ -36,7 +37,7 @@ En particular, nuestro enfoque se centra en la implementación de un robot capaz
 
 # Demo
 
-[![Demo](https://img.youtube.com/vi/N_IYzQ1feL4/0.jpg)](https://www.youtube.com/watch?v=N_IYzQ1feL4)
+[![Demo]()]()
 
 # Funcionalidad Principal
 
@@ -44,7 +45,7 @@ El robot tiene la capacidad de servir bebidas a los usuarios basándose en el re
 
 En caso de que sea la primera vez que el usuario utilice el robot, este le solicitará que elija entre las tres opciones de bebidas disponibles, para que en futuras ocasiones el robot pueda servirle directamente su bebida favorita según su reconocimiento facial.
 
-# Requirements
+# Requirementos Ejecución
 
 For running each sample code:
 
@@ -74,7 +75,7 @@ Si es la primera vez que el usuario es detectado por el modelo, se le solicitar�
 
 El usuario seleccionará su bebida preferida presionando uno de los tres botones, y a partir de esa elección, el robot comenzará a dispensar la bebida seleccionada.
 
-### Caso 2: El usuario ha usado el robot previamente
+## Caso 2: El usuario ha usado el robot previamente
 
 En caso de que el usuario ya haya utilizado previamente el robot, este ya tendrá una bebida asociada y, por lo tanto, el robot dispensará automáticamente esa bebida sin que el usuario tenga que hacer ninguna selección adicional.
 
@@ -88,13 +89,13 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 | [3 Push Buttons](https://www.digikey.es/es/products/detail/cui-devices/TS02-66-60-BK-100-SCR-D/15634358?utm_adgroup=Tactile%20Switches&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Switches&utm_term=&productid=15634358&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6f_8dzIUEkD_Q8xm6bYCE63TOHERH17kFTZA9TtDuOEQVtOX9fEyV0aAn0mEALw_wcB) | <img src="https://media.digikey.com/Photos/CUI%20Photos/MFG_TS02-Sm-BK-SCR.jpg" width="200" height="150"> | [DRV8825 Controlador paramotor paso a paso](https://www.e-ika.com/m%C3%B3dulo-paso-a-paso-drv8825) | <img src="https://www.e-ika.com/images/thumbs/0003414_controlador-para-motores-paso-a-paso-drv8825_600.jpeg" width="200" height="150"> | 
 
 
-# Componentes Caja
+# Componentes Caja 3D
 
 |Nombre Pieza 3D|Imagen|Nombre Pieza 3D|Imagen|
 |:--------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|
 | Pared Delantera de la Caja | <img src="./assets/piezas_3D_caja/pared_delantera_caja_3D.png" width="200" height="150"> | Pared Trasera de la Caja | <img src="./assets/piezas_3D_caja/pared_trasera_caja_3D.png" width="200" height="150"> | |
 | Pared Superior de la Caja | <img src="./assets/piezas_3D_caja/pared_superior_caja_3D.png" width="200" height="100"> | Rail Interno Desplazamiento Vaso | <img src="./assets/piezas_3D_caja/rail_interior_caja_3D.png" width="300" height="100"> | |
-| Juntas de las Válvulas | <img src="./assets/piezas_3D_caja/cilindros_caja_3D.png" width="300" height="100"> | Piezas Interior de la Caja | <img src="./assets/piezas_3D_caja/piezas_interior_caja_3D.png" width="200" height="150"> | |
+| Juntas de las Válvulas | <img src="./assets/piezas_3D_caja/cilindros_caja_3D.png" width="300" height="100"> | Piezas Interior de la Caja | <img src="./assets/piezas_3D_caja/piezas_interior_caja_3D.png" width="200" height="200"> | |
 
 
 
@@ -105,64 +106,7 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 # Software Modules
 <img src="./assets/sw_scheme.png" width="640" alt="software modules pic">
 
-# Eyes
-## Affirmation
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/affirmation.gif" width="640" alt="affirmation pic">
 
-## Loved
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/loved.gif" width="640" alt="loves pic">
-
-## Suspicious
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/suspicious.gif" width="640" alt="suspicius pic">
-
-## Angry
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/angry.gif" width="640" alt="angry pic">
-
-## Happy
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/happy.gif" width="640" alt="happy pic">
-
-## Normal
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/normal.gif" width="640" alt="normal pic">
-
-## Sad
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Eyes/sad.gif" width="640" alt="sad pic">
-
-# Arms
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Arms/move.gif" width="640" alt="arm move pic">
-
-# Movements
-## Front
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Moviments/front.gif" width="640" alt="go pic">
-
-## Left
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Moviments/left.gif" width="640" alt="left pic">
-
-## Right
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Moviments/right.gif" width="640" alt="right pic">
-
-## Back
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Moviments/back.gif" width="640" alt="back pic">
-
-# Proximity Sensors
-## Frontal
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Proximity_Sensors/sensor.gif" width="640" alt="sensor pic">
-
-# Command Voice
-## Voice Controller
-[![Voice Controller](https://img.youtube.com/vi/iem644UcZ8E/0.jpg)](https://www.youtube.com/watch?v=iem644UcZ8E)
-
-## Dance
-[![Dance](https://img.youtube.com/vi/3rkEBKqAFxo/0.jpg)](https://www.youtube.com/watch?v=3rkEBKqAFxo)
-
-## Tell me a joke
-[![tell me a joke](https://img.youtube.com/vi/mcBkq9uVq2E/0.jpg)](https://youtu.be/mcBkq9uVq2E)
-
-## Object Classification
-[![object classification](https://img.youtube.com/vi/gnggCI5NF00/0.jpg)](https://www.youtube.com/watch?v=gnggCI5NF00)
-
-# Additional Implementations
-- Where I am
-- Emotion Detection
 # Built With
 - [TinkerCard](https://www.tinkercad.com/) - Model Design Program.
 - [Arduino](https://www.arduino.cc/) - IDE used for the development of the servos.
