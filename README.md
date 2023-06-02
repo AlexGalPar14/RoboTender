@@ -3,7 +3,7 @@
 
 # Robotender
 
-Dispensador de bebidas automatico a través del reconocimiento facial de los usuarios.
+Dispensador de bebidas automático a través del reconocimiento facial de los usuarios.
 
 # Tabla de Contenidos
    * [Descripción del proyecto](#descripción-del-proyecto)
@@ -51,17 +51,7 @@ For running each sample code:
 
 - [Python 3.9.x](https://www.python.org/)
 
-- [pytorch](https://pytorch.org/)
-- [opencv](https://opencv.org/)
-- [pipwin](https://pypi.org/project/pipwin/)
-- [pyaudio](https://pypi.org/project/PyAudio/)
-- [pygame](https://www.pygame.org/)
-- [torchaudio](https://pytorch.org/audio/)
-- [omegaconf](https://omegaconf.readthedocs.io/)
-- [sox](https://pypi.org/project/sox/)
-- [noisereduce](https://pypi.org/project/noisereduce/)
-- [Levenshtein](https://en.wikipedia.org/wiki/Levenshtein_distance)
-- [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/)
+
 
 # Guía de uso
 
@@ -100,7 +90,7 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 
 
 # Hardware Scheme
-<img src="https://github.com/juanmacaaz/Jetsy/blob/main/Resources/Scheme/hardware.png" width="640" alt="hardware pic">
+<img src="" width="640" alt="hardware pic">
 
 
 # Software Modules
@@ -113,8 +103,6 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 - [VSCode](https://code.visualstudio.com/) - Code editor to program hardware components.
 - [Python](https://www.python.org/) - Language used for programming.
 - [Adoble Suit](https://www.adobe.com/) - For visual content creation.
-# License
-This project is under the MIT License - see the [LICENSE](https://github.com/juanmacaaz/Jetsy/blob/main/LICENSE.md) file for details
 
 # Use-Case
 If this project helps your robotics project, please let us know with creating an issue.
@@ -138,7 +126,4 @@ If this project helps your robotics project, please let us know with creating an
 * **Fco Javier Honrubia** (https://github.com/javihonrubia)
 
 # Bibliography
-- [Controlar un servo con arduino, Luis Llamas, 2016](https://www.luisllamas.es/controlar-un-servo-con-arduino/)
-- [Modulo sensor de llama, Andrés Cortés, 2021](https://acortes.co/proyecto-14-modulo-sensor-de-llama/)
-- [Tutorial de uso del modulo l298n, Naylamp Mechatronics, 2017](https://naylampmechatronics.com/blog/11_tutorial-de-uso-del-modulo-l298n.html)
-- [CSI Camera, Jetson Hacks Nano, 2019](https://github.com/JetsonHacksNano/CSI-Camera)
+
