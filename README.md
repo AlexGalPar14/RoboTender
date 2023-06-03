@@ -107,12 +107,12 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 # Use-Case
 If this project helps your robotics project, please let us know with creating an issue.
 
-# Amazing Contribution
-- An emotional human-robot interaction never seen before.
-- Table assistant 2.0 equipped with artificial intelligence.
-- An assistant with next-level computer vision. Leaving current trade assistants behind.
-- An easy-to-program framework to add new functionality to the robot.
-- All the code is open-source and does not require the internet to work.
+# Contribuciones del proyecto
+- Implementación de reconocimiento facial: Nuestro proyecto destaca por la implementación exitosa de un sistema de reconocimiento facial preciso y confiable. Esto permite al robot identificar a los usuarios de manera individual y personalizar su experiencia de servicio de bebidas.
+- Integración de visión por computadora: Hemos desarrollado un modelo de visión por computadora avanzado que permite al robot detectar y seguir las caras de los usuarios con precisión. Esto garantiza que el robot pueda ofrecer un servicio rápido y eficiente al dispensar las bebidas.
+- Personalización de bebidas: Nuestro robot ofrece la capacidad única de personalizar las bebidas según las preferencias individuales de los usuarios. Al permitir que los usuarios elijan su bebida favorita en la primera interacción, el robot puede recordar esta elección y servirles automáticamente en futuras ocasiones.
+- Diseño modular y escalable: Nuestro proyecto se basa en un diseño modular y escalable, lo que facilita futuras mejoras y expansiones. Esto permite la adición de nuevas funcionalidades y características en etapas posteriores, lo que hace que nuestro proyecto sea flexible y adaptable.
+
 
   
 # Support 
