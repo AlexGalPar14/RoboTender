@@ -1,3 +1,7 @@
+"""
+Test que inicia la cámara y abre una nueva ventana con la imagen que muestra la cámara.
+"""
+
 import cv2
 import picamera
 import picamera.array
