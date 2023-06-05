@@ -1,3 +1,7 @@
+"""
+Test que escribe por terminal cada segundo si está detectando un objeto el sensor o no.
+"""
+
 import RPi.GPIO as GPIO
 import time
 
