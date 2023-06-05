@@ -1,5 +1,5 @@
 
-<img src="" align="right" width="300" alt="header pic"/>
+<img src="./assets/foto_portada.jpg" align="right" width="300" alt="header pic"/>
 
 # Robotender
 
@@ -35,7 +35,7 @@ En particular, nuestro enfoque se centra en la implementación de un robot capaz
 
 # Demo
 
-[![Demo]()]()
+[![Demo](https://drive.google.com/file/d/1dYsdDJ1e6-NYhGJ4IOtSDUXpjtiR7EXx/view?usp=drive_link)](https://drive.google.com/file/d/1dYsdDJ1e6-NYhGJ4IOtSDUXpjtiR7EXx/view?usp=drive_link)
 
 # Funcionalidad Principal
 
@@ -48,9 +48,6 @@ En caso de que sea la primera vez que el usuario utilice el robot, este le solic
 Para poder ejecutar el codigo se necesita:
 
 - [Python 3.9.x](https://www.python.org/)
-
-
-
 
 # Guía de uso
 
@@ -88,7 +85,7 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 
 # Esquema Hardware
 
-<img src="" width="640" alt="hardware pic">
+<img src="./assets/hw_scheme.png" width="640" alt="hardware pic">
 
 
 # Modulos del Software
