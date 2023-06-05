@@ -35,7 +35,7 @@ En particular, nuestro enfoque se centra en la implementación de un robot capaz
 
 # Demo
 
-[![Demo](https://drive.google.com/file/d/1dYsdDJ1e6-NYhGJ4IOtSDUXpjtiR7EXx/view?usp=drive_link)](https://drive.google.com/file/d/1dYsdDJ1e6-NYhGJ4IOtSDUXpjtiR7EXx/view?usp=drive_link)
+[![Demo](https://youtu.be/joXpWTzLaw8)](https://youtu.be/joXpWTzLaw8)
 
 # Funcionalidad Principal
 
