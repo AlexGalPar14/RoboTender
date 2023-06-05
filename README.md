@@ -15,19 +15,17 @@ Dispensador de bebidas automático a través del reconocimiento facial de los us
       * [Caso 2: El usuario ha usado el robot previamente](#guía-de-uso)
    * [Componentes Electrónicos](#componentes-elctrónicos)
    * [Componentes Caja 3D](#componentes-caja-3D)
-   * [Hardware Scheme](#hardware-scheme)
-   * [Arquitectura de Software](#software-architecture)
-   * [Software Modules](#software-modules)
-   * [Additional Implementations](#additional-implementations)
-   * [Built With](#built-with)
+   * [Esquema Hardware](#esquema-hardware)
+   * [Modulos del Software](#modulos-del-software)
+   * [Desarrollado con](#desarrollado-con)
    * [License](#license)
    * [Use-case](#use-case)
-   * [Amazing Contribution](#amazing-contribution)
-   * [How to contribute](#How-to-contribute)
-   * [Citing](#citing)
-   * [Support](#support)
-   * [Authors](#authors)
-   * [Bibliography](#bibliography)
+   * [Contribuciones del proyecto](#contribuciones-del-proyecto)
+   * [Ejecución del Software del Proyecto](#ejecución-del-software-del-proyecto)
+   * [Soporte](#soporte)
+   * [Autores](#autores)
+   * [Licencia](#licencia)
+   * [Bibliografia](#bibliografia)
 
 # Descripción del proyecto
 
@@ -47,9 +45,10 @@ En caso de que sea la primera vez que el usuario utilice el robot, este le solic
 
 # Requirementos Ejecución
 
-For running each sample code:
+Para poder ejecutar el codigo se necesita:
 
 - [Python 3.9.x](https://www.python.org/)
+
 
 
 
@@ -77,7 +76,7 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 | [Sensor Infrarrojo Sharp 2y0a21](https://es.rs-online.com/web/p/sensores-opticos-reflectantes/6666568?cm_mmc=ES-PLA-DS3A-_-google-_-CSS_ES_ES_Displays_y_Optoelectronica_Whoop-_-(ES:Whoop!)+Sensores+%C3%93pticos+Reflectantes+(2)-_-6666568&matchtype=&pla-362264014274&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6dZDrrsCtV5F89tjWFADtBvWYdSQ1SJFB9AhaOn0aZQWHzbUovzOaMaAl1fEALw_wcB&gclsrc=aw.ds) | <img src="https://ce8dc832c.cloudimg.io/v7/_cdn_/15/8D/00/00/0/55377_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8d29e49afceaeffa354fb386867dcaa1550bf9ab" width="200" height="100"> | [Two Trees Stepping Motor Model 17HS4401](https://www.amazon.es/Twotrees-Nema-17-impresora-HS4401S/dp/B07SQNZ66Q/ref=asc_df_B07SQNZ66Q/?tag=googshopes-21&linkCode=df0&hvadid=513590746798&hvpos=&hvnetw=g&hvrand=12539990065257522260&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20270&hvtargid=pla-853487347177&psc=1) | <img src="https://m.media-amazon.com/images/I/614657YGFaL._SL1500_.jpg" width="200" height="150"> | |
 | [Valvula con Solenoide 12V - 1/2](https://tienda.bricogeek.com/otros-sensores/937-valvula-con-solenoide-12v.html) | <img src="https://tienda.bricogeek.com/3872-thickbox_default/valvula-con-solenoide-12v.jpg" width="200" height="150"> | [A4988 Controlador para motor paso a paso](https://www.hta3d.com/es/a4988-controlador-motor-paso-a-paso-pololu-driver?gclid=CjwKCAjwpuajBhBpEiwA_Ztfhbq1hR--vj-H2azsVW6Nx2s-FVPZ3zZIGuDwAl1MMluSK8seG8oXqhoC9DoQAvD_BwE) | <img src="https://www.hta3d.com/image/cache/cache/1-1000/244/additional/5e45-a4988-02-0-4-1000x1000.jpg.webp" width="200" height="150"> | |
 | [3 Push Buttons](https://www.digikey.es/es/products/detail/cui-devices/TS02-66-60-BK-100-SCR-D/15634358?utm_adgroup=Tactile%20Switches&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Switches&utm_term=&productid=15634358&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6f_8dzIUEkD_Q8xm6bYCE63TOHERH17kFTZA9TtDuOEQVtOX9fEyV0aAn0mEALw_wcB) | <img src="https://media.digikey.com/Photos/CUI%20Photos/MFG_TS02-Sm-BK-SCR.jpg" width="200" height="150"> | [DRV8825 Controlador paramotor paso a paso](https://www.e-ika.com/m%C3%B3dulo-paso-a-paso-drv8825) | <img src="https://www.e-ika.com/images/thumbs/0003414_controlador-para-motores-paso-a-paso-drv8825_600.jpeg" width="200" height="150"> | 
-
+| [Fuente de alimentación ATX Dell](https://www.tonitrus.com/es/10206254-003-dell-hyv3h-dell-stromversorgung-290-watt-fuer-optiplex-3020-7020-9020/?number=10206254-003&gclid=Cj0KCQjwj_ajBhCqARIsAA37s0xNY2mg3tttk0xQjGwoNweW7hORXfupEfET5bYorKkbZK2eAd0WuWoaAhY3EALw_wcB) | <img src="https://www.tonitrus.com/media/image/ba/a4/fd/dell-hyv3h-dell-stromversorgung-290-watt-fur-optiplex-10206254_600x600.jpg" width="220" height="150"> | [Relé azul BESTEP T73 5 V JQC3F-05VDC-C](https://www.amazon.com/-/es/Rel%C3%A9-azul-BESTEP-T73-JQC3F-05VDC-C/dp/B07Q3CQTJK) | <img src="https://m.media-amazon.com/images/I/51Bi-xF4AWL._SL1000_.jpg" width="200" height="150"> | 
 
 # Componentes Caja 3D
 
@@ -87,22 +86,21 @@ En caso de que el usuario ya haya utilizado previamente el robot, este ya tendr�
 | Pared Superior de la Caja | <img src="./assets/piezas_3D_caja/pared_superior_caja_3D.png" width="200" height="100"> | Rail Interno Desplazamiento Vaso | <img src="./assets/piezas_3D_caja/rail_interior_caja_3D.png" width="300" height="100"> | |
 | Juntas de las Válvulas | <img src="./assets/piezas_3D_caja/cilindros_caja_3D.png" width="300" height="100"> | Piezas Interior de la Caja | <img src="./assets/piezas_3D_caja/piezas_interior_caja_3D.png" width="200" height="200"> | |
 
+# Esquema Hardware
 
-
-# Hardware Scheme
 <img src="" width="640" alt="hardware pic">
 
 
-# Software Modules
+# Modulos del Software
+
 <img src="./assets/sw_scheme.png" width="640" alt="software modules pic">
 
 
-# Built With
-- [TinkerCard](https://www.tinkercad.com/) - Model Design Program.
-- [Arduino](https://www.arduino.cc/) - IDE used for the development of the servos.
+# Desarrollado con
 - [VSCode](https://code.visualstudio.com/) - Code editor to program hardware components.
-- [Python](https://www.python.org/) - Language used for programming.
-- [Adoble Suit](https://www.adobe.com/) - For visual content creation.
+- [Python](https://www.python.org/) - Language used for programming.Ç
+- [mobaxterm](https://mobaxterm.mobatek.net/) - For remote access to the Raspberry Pi.
+- [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/) - Operating system used for the Raspberry Pi.
 
 # Use-Case
 If this project helps your robotics project, please let us know with creating an issue.
@@ -113,17 +111,34 @@ If this project helps your robotics project, please let us know with creating an
 - Personalización de bebidas: Nuestro robot ofrece la capacidad única de personalizar las bebidas según las preferencias individuales de los usuarios. Al permitir que los usuarios elijan su bebida favorita en la primera interacción, el robot puede recordar esta elección y servirles automáticamente en futuras ocasiones.
 - Diseño modular y escalable: Nuestro proyecto se basa en un diseño modular y escalable, lo que facilita futuras mejoras y expansiones. Esto permite la adición de nuevas funcionalidades y características en etapas posteriores, lo que hace que nuestro proyecto sea flexible y adaptable.
 
+# Ejecución del Software del Proyecto
+Para ejecutar el software del proyecto, siga los siguientes pasos:
+1. Conecte la Raspberry Pi a la fuente de alimentación y enciéndala.
+2. Conecte la Raspberry Pi al ordenador mediante una conexión SSH.
+3. Abra una terminal en el ordenador y ejecute el siguiente comando para ejecutar el software del proyecto:
+```
+python3 main.py
+```
+4. El robot comenzará a funcionar y estará listo para dispensar bebidas.
 
   
-# Support 
+# Soporte 
 - [Escola d'Enginyeria - UAB Barcelona](https://www.uab.cat/enginyeria/)
 - [UAB Open Labs](https://www.uab.cat/open-labs/)
 
-# Authors
+# Autores
 * **Daniel Alcover** (https://github.com/danialcover)
 * **Alexandre Galvany** (https://github.com/AlexGalPar14)
 * **Jordi González** (https://github.com/Jordigg2000)
 * **Fco Javier Honrubia** (https://github.com/javihonrubia)
 
-# Bibliography
+# Licencia
+Free software
+
+# Bibliografia
+- [Libereia rpi.gpio ](https://aprendiendoarduino.wordpress.com/2020/03/04/manejar-gpio-raspberry-pi/)
+- [Pins Raspberry Pi 3](https://solectroshop.com/es/content/60-5-pines-gpio-y-su-programacion)
+- [Libreria Rpi.GPIO](https://pypi.org/project/RPi.GPIO/)
+- [Camara Raspberry Pi](https://www.raspberrypi.com/documentation/accessories/camera.html)
+- [Raspberry Pi ](https://www.raspberrypi.com/documentation/)
 
