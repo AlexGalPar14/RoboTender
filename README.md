@@ -39,7 +39,10 @@ En particular, nuestro enfoque se centra en la implementación de un robot capaz
 
 # Funcionalidad Principal
 
-El robot tiene la capacidad de servir bebidas a los usuarios basándose en el reconocimiento facial. Utilizando un modelo de visión por computador, el robot detecta las caras de las personas y, si el usuario ha seleccionado previamente su bebida preferida, el robot la dispensará automáticamente. 
+El robot tiene la capacidad de servir bebidas a los usuarios basándose en el reconocimiento facial. Utilizando un modelo de visión por computador, el robot detecta las caras de las personas y, si el usuario ha seleccionado previamente su bebida preferida, el robot la dispensará automáticamente.
+
+Esta acción de dispensar las bebidas se puede realizar ya que el robot cuenta con un sistema de bombeo de líquidos, que permite que el robot pueda dispensar las bebidas de forma automática.
+Además, el robot cuenta con un sistema donde el usuario pondra el vaso para que el robot pueda dispensar la bebida y este a traves de un motor paso a paso se movera para que el vaso se encuentre debajo de la boquilla de la bebida corriendo por los railes que se encuentran en la parte inferior de la caja.
 
 En caso de que sea la primera vez que el usuario utilice el robot, este le solicitará que elija entre las tres opciones de bebidas disponibles, para que en futuras ocasiones el robot pueda servirle directamente su bebida favorita según su reconocimiento facial.
 
